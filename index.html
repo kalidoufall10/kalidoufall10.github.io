@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about" class="">About</a>
+      <!--<a href="#services" class="">Services</a>-->
+      <a href="#portfolio" class="">Portfolio</a>
+      <a href="#contact" class="">Contact</a>
+    </nav>
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Bonjour, Je suis</h3>
+      <h1>Kalidou FALL</h1>
+      <p>Etudiant en Administration et Sécurité des réseaux</p>
+      <div class="social-media">
+        <a href="https://twitter.com/fall_kalidou8" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/kalidou-fall-5b3174206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkKfnH8cnSLC4p76zul2LbA%3D%3D" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://instagram.com/kalidoufa?igshid=YmMyMTA2M2Y=" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+      </div>
+
+      <a href="https://drive.google.com/file/d/1FUEfqTu0Ntk61t8t29Iiic9dVGl76Auv/view?usp=sharing" class="btn" target="_blank">Télécharger CV</a>
+    </div>
+
+    <div class="profession-container">
+      <div class="profession-box">
+        <div class="profession" style="--i:0;">
+          <i class="bx bxs-lock-alt"></i>
+          <h3>Sécurité résaeux</h3>
+        </div>  
+        <div class="profession" style="--i:1;">
+          <i class="bx bx-desktop"></i>
+          <h3>Sécurité Systèmes</h3>
+        </div>  
+        <div class="profession" style="--i:2;">
+          <i class="bx bxl-python"></i>
+          <h3>Dev Python</h3>
+        </div>
+        <div class="profession" style="--i:3;">
+          <i class="bx bx-code-alt"></i>
+          <h3>HTML, CSS et JS</h3>
+        </div>  
+         <div class="circle"></div> 
+      </div>
+
+      <div class="overlay"></div>
+    </div>
+    
+  </section>
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="home.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">A propos de <span>Moi</span></h2>
+      <h3>Salut, Je suis là pour vous aider sur vos prochains projets.</h3>
+      <p>De par l'expérience que j'ai acquéri en matière de sécurité des réseaux.
+        J'en serai tellement ravi de vous en partager, que ça soit en sécurité, développment
+        python ou encore en développment HTML/CSS/JavaScript. 
+      </p>
+      <a href="#" class="btn">Lire Plus</a>
+    </div>
+  </section> 
+  
+  <!--<section class="services" id="services">
+    <h2 class="heading">Mes <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>HTML, CSS et JS</h3>
+        <p>HTML signifie Hypertext Markup Language, est un langage de balisage standard pour la création d’applications Web et de sites Web. C’est un système bien standardisé utilisé pour marquer les fichiers texte afin d’obtenir des couleurs, des graphiques, des polices et des effets sur les pages Web. C’est un langage en constante évolution.
+          CSS, appelé aussi Cascading Style Sheets, est un langage de feuille de style utilisé pour gérer la présentation d’une page Web contenant du code HTML. Cela rend nos sites Web beaux et modernes. C’est juste pour tous les effets visuels et avec sa nouvelle version, on peut aussi créer une animation simple.
+          JavaScript, souvent appelé JS, est un langage de programmation interprété dynamique de haut niveau qui permet aux scripts côté client de créer des applications Web et des sites Web entièrement dynamiques. C’est un langage basé sur un prototype très léger qui peut facilement s’exécuter sur les navigateurs. multi-paradigme faiblement typé, basé sur un prototype. Créez un script multi-paradigme peut fournir une puissance brillante à votre page Web.
+        </p>
+        <a href="#" class="btn">Lire Plus</a>
+      </div>
+      <div class="services-box">
+        <i class="bx bxl-python"></i>
+        <h3>Développement en Python</h3>
+        <p></p>
+        <a href="#" class="btn">Lire Plus</a>
+      </div>  
+      <div class="services-box">
+        <i class="bx bx-desktop"></i>
+        <h3>Sécurité Systèmes</h3>
+        <p></p>
+        <a href="#" class="btn">Lire Plus</a>
+      </div> --> 
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Mes <span>projets</span></h2>
+
+    <div class="portfolio-container">
+      <!-- dupliquer après le nombre de fois de projet-->
+      <div class="portfolio-box">
+        <img src="assistant.jpeg" alt="">
+
+        <div class="portfolio-layer">
+          <h4>Assistante Vocale</h4>
+          <!-- <p></p> -->
+          <a href="https://drive.google.com/file/d/1XqXQOG99P9QXnYKmZ-eGL1pPqlNlVMA_/view?usp=sharing" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="bot4.jpeg" alt="">
+
+        <div class="portfolio-layer">
+          <h4>Bot Telegram</h4>
+          <a href="https://drive.google.com/file/d/1VjGpe8O0MyyFQEAX6XbhZCTkqrEZEXqX/view?usp=sharing" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="keylogger1.jpeg" alt="">
+
+        <div class="portfolio-layer">
+          <h4>Keylogger Facebook</h4>
+          <!-- <p></p> -->
+          <a href="https://drive.google.com/file/d/1jGm8EwqP-ZegEPqaYsF7kasZqfXazmAX/view?usp=sharing" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <!-- fin -->
+    </div>
+
+  </section>
+
+  <!-- <div class="testimonial-container">
+    <h2 class="heading">Précieux <span>Témoignages</span></h2>
+
+  </div> -->
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contactez <span>Moi</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Nom*" required>
+        <input type="email" placeholder="Adresse Mail*" required>
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Numéro Téléphone*" required>
+        <input type="text" placeholder="Objet*" required>
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message*" required></textarea>
+      <input type="submit" value="Envoie Message" class="btn" required>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Kalidou FALL | ALL Right Reserved</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="fall.js"></script>
+</body>
+</html>
